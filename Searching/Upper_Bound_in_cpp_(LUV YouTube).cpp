@@ -4,7 +4,7 @@ int upper_bound(vector<int>&v, int element)
 {
    int lo = 0, hi = v.size()-1;
    while(hi - lo > 1){
-      int mid = (lo + hi)/2; 
+      int mid = (lo + hi)/2;
       if(v[mid] <= element){
          lo = mid + 1;
       }
